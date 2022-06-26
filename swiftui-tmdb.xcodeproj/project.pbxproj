@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0958448E2868E6F600595B0F /* swiftui_tmdbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0958448D2868E6F600595B0F /* swiftui_tmdbApp.swift */; };
-		095844902868E6F600595B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0958448F2868E6F600595B0F /* ContentView.swift */; };
-		095844922868E6F700595B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095844912868E6F700595B0F /* Assets.xcassets */; };
-		095844952868E6F700595B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095844942868E6F700595B0F /* Preview Assets.xcassets */; };
+		095844A82868E78F00595B0F /* swiftui_tmdbApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095844A72868E78F00595B0F /* swiftui_tmdbApp.swift */; };
+		095844AA2868E78F00595B0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095844A92868E78F00595B0F /* ContentView.swift */; };
+		095844AC2868E79000595B0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095844AB2868E79000595B0F /* Assets.xcassets */; };
+		095844AF2868E79000595B0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095844AE2868E79000595B0F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0958448A2868E6F600595B0F /* swiftui-tmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-tmdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0958448D2868E6F600595B0F /* swiftui_tmdbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_tmdbApp.swift; sourceTree = "<group>"; };
-		0958448F2868E6F600595B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		095844912868E6F700595B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		095844942868E6F700595B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		095844A42868E78F00595B0F /* swiftui-tmdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-tmdb.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		095844A72868E78F00595B0F /* swiftui_tmdbApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_tmdbApp.swift; sourceTree = "<group>"; };
+		095844A92868E78F00595B0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		095844AB2868E79000595B0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		095844AE2868E79000595B0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		095844872868E6F600595B0F /* Frameworks */ = {
+		095844A12868E78F00595B0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		095844812868E6F600595B0F = {
+		0958449B2868E78F00595B0F = {
 			isa = PBXGroup;
 			children = (
-				0958448C2868E6F600595B0F /* swiftui-tmdb */,
-				0958448B2868E6F600595B0F /* Products */,
+				095844A62868E78F00595B0F /* swiftui-tmdb */,
+				095844A52868E78F00595B0F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0958448B2868E6F600595B0F /* Products */ = {
+		095844A52868E78F00595B0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0958448A2868E6F600595B0F /* swiftui-tmdb.app */,
+				095844A42868E78F00595B0F /* swiftui-tmdb.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0958448C2868E6F600595B0F /* swiftui-tmdb */ = {
+		095844A62868E78F00595B0F /* swiftui-tmdb */ = {
 			isa = PBXGroup;
 			children = (
-				0958448D2868E6F600595B0F /* swiftui_tmdbApp.swift */,
-				0958448F2868E6F600595B0F /* ContentView.swift */,
-				095844912868E6F700595B0F /* Assets.xcassets */,
-				095844932868E6F700595B0F /* Preview Content */,
+				095844A72868E78F00595B0F /* swiftui_tmdbApp.swift */,
+				095844A92868E78F00595B0F /* ContentView.swift */,
+				095844AB2868E79000595B0F /* Assets.xcassets */,
+				095844AD2868E79000595B0F /* Preview Content */,
 			);
 			path = "swiftui-tmdb";
 			sourceTree = "<group>";
 		};
-		095844932868E6F700595B0F /* Preview Content */ = {
+		095844AD2868E79000595B0F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				095844942868E6F700595B0F /* Preview Assets.xcassets */,
+				095844AE2868E79000595B0F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		095844892868E6F600595B0F /* swiftui-tmdb */ = {
+		095844A32868E78F00595B0F /* swiftui-tmdb */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 095844982868E6F700595B0F /* Build configuration list for PBXNativeTarget "swiftui-tmdb" */;
+			buildConfigurationList = 095844B22868E79000595B0F /* Build configuration list for PBXNativeTarget "swiftui-tmdb" */;
 			buildPhases = (
-				095844862868E6F600595B0F /* Sources */,
-				095844872868E6F600595B0F /* Frameworks */,
-				095844882868E6F600595B0F /* Resources */,
+				095844A02868E78F00595B0F /* Sources */,
+				095844A12868E78F00595B0F /* Frameworks */,
+				095844A22868E78F00595B0F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "swiftui-tmdb";
 			productName = "swiftui-tmdb";
-			productReference = 0958448A2868E6F600595B0F /* swiftui-tmdb.app */;
+			productReference = 095844A42868E78F00595B0F /* swiftui-tmdb.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		095844822868E6F600595B0F /* Project object */ = {
+		0958449C2868E78F00595B0F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					095844892868E6F600595B0F = {
+					095844A32868E78F00595B0F = {
 						CreatedOnToolsVersion = 13.3;
 					};
 				};
 			};
-			buildConfigurationList = 095844852868E6F600595B0F /* Build configuration list for PBXProject "swiftui-tmdb" */;
+			buildConfigurationList = 0958449F2868E78F00595B0F /* Build configuration list for PBXProject "swiftui-tmdb" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 095844812868E6F600595B0F;
-			productRefGroup = 0958448B2868E6F600595B0F /* Products */;
+			mainGroup = 0958449B2868E78F00595B0F;
+			productRefGroup = 095844A52868E78F00595B0F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				095844892868E6F600595B0F /* swiftui-tmdb */,
+				095844A32868E78F00595B0F /* swiftui-tmdb */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		095844882868E6F600595B0F /* Resources */ = {
+		095844A22868E78F00595B0F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095844952868E6F700595B0F /* Preview Assets.xcassets in Resources */,
-				095844922868E6F700595B0F /* Assets.xcassets in Resources */,
+				095844AF2868E79000595B0F /* Preview Assets.xcassets in Resources */,
+				095844AC2868E79000595B0F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		095844862868E6F600595B0F /* Sources */ = {
+		095844A02868E78F00595B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095844902868E6F600595B0F /* ContentView.swift in Sources */,
-				0958448E2868E6F600595B0F /* swiftui_tmdbApp.swift in Sources */,
+				095844AA2868E78F00595B0F /* ContentView.swift in Sources */,
+				095844A82868E78F00595B0F /* swiftui_tmdbApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		095844962868E6F700595B0F /* Debug */ = {
+		095844B02868E79000595B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -205,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		095844972868E6F700595B0F /* Release */ = {
+		095844B12868E79000595B0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +259,7 @@
 			};
 			name = Release;
 		};
-		095844992868E6F700595B0F /* Debug */ = {
+		095844B32868E79000595B0F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,7 +287,7 @@
 			};
 			name = Debug;
 		};
-		0958449A2868E6F700595B0F /* Release */ = {
+		095844B42868E79000595B0F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -318,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		095844852868E6F600595B0F /* Build configuration list for PBXProject "swiftui-tmdb" */ = {
+		0958449F2868E78F00595B0F /* Build configuration list for PBXProject "swiftui-tmdb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				095844962868E6F700595B0F /* Debug */,
-				095844972868E6F700595B0F /* Release */,
+				095844B02868E79000595B0F /* Debug */,
+				095844B12868E79000595B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		095844982868E6F700595B0F /* Build configuration list for PBXNativeTarget "swiftui-tmdb" */ = {
+		095844B22868E79000595B0F /* Build configuration list for PBXNativeTarget "swiftui-tmdb" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				095844992868E6F700595B0F /* Debug */,
-				0958449A2868E6F700595B0F /* Release */,
+				095844B32868E79000595B0F /* Debug */,
+				095844B42868E79000595B0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 095844822868E6F600595B0F /* Project object */;
+	rootObject = 0958449C2868E78F00595B0F /* Project object */;
 }
